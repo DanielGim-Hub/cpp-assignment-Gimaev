@@ -25,7 +25,6 @@ int hw01(int start, int end) {
         end = temp;
     }
 
-
     int sum = 0;
     for (int i = start; i <= end; ++i) {
         if (is_prime(i)) {
